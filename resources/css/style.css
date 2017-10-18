@@ -159,17 +159,21 @@ footer {
 }
 }
 
-@media only screen and (max-width: 700px){
-  .main-banner {
-    background-color: white;
-    display: inline-block;
-    margin-top: 10rem;
-    margin-right: -2rem;
-    line-height: 2.4rem;
-    padding: 1rem 4rem;
-    font-size: 1.33rem;
+@media only screen and (max-width: 560px){
+.main-banner {
+    width: 100%;
+    text-align: center;
+    padding: 0px 1rem;
+    margin: 9rem auto 0px;
   }
 }
+
+@media only screen and (max-width: 560px){
+.h1 {
+    font-size: 1rem;
+  }
+}
+
 
 @media only screen and (max-width: 1024px){
 header {
@@ -181,24 +185,52 @@ header {
 }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 560px){
 header {
     padding-top: 0px;
     height: 22rem;
     width: 100%;
-    background-position: 20%;
+    background-position: 20% center;
 
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 560px){
 li {
     display: none
 }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 560px){
 .mobile-nav {
   list-style: none;
   display: flex;
+}
+}
+
+@media only screen and (max-width: 560px){
+.supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+}
+}
+
+@media only screen and (max-width: 560px){
+.service {
+    height: auto;
+    font-size: 0.77rem;
+    margin: 0.77rem;
+}
+}
+
+@media only screen and (max-width: 560px){
+footer {
+    justify-content: center;
+}
+}
+@media only screen and (max-width: 560px){
+footer div {
+    display: none;
 }
 }
