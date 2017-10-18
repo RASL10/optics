@@ -231,7 +231,7 @@ footer div {
 }
 
 @media only screen and (max-width: 560px){
-nav img {
+nav span {
     display: none;
 }
 }
